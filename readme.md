@@ -31,7 +31,7 @@ http://localhost:3000/:feed
 
 Where `FEED_NAME` is the name of the feed you want to access, for example:
 - `nosnieuwsalgemeen` (General news)
-- `sport` (Sports news)
+- `nossportalgemeen` (Sports news)
 - `nosnieuwseconomie` (Economic news)
 
 Example:
