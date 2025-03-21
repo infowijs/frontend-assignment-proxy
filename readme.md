@@ -2,7 +2,7 @@
 
 This application creates a simple proxy server that fetches RSS feeds from NOS and returns them. It helps bypass CORS restrictions when accessing NOS feeds from a browser-based application.
 
-This tool is only used during a code assignment for the hiring of our frontend developer position.
+This tool is only used during the code assignment for the hiring of our frontend developer position.
 
 ## Installation
 
@@ -26,10 +26,10 @@ The server will run on port 3000 by default.
 2. Access NOS feeds through the proxy:
 
 ```
-http://localhost:3000/:feed
+[GET] http://localhost:3000/:feed
 ```
 
-Where `FEED_NAME` is the name of the feed you want to access, for example:
+Where `:feed` is the name of the feed you want to access, for example:
 - `nosnieuwsalgemeen` (General news)
 - `nossportalgemeen` (Sports news)
 - `nosnieuwseconomie` (Economic news)
