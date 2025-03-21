@@ -1,0 +1,17 @@
+{
+  "name": "rss-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "fastify": "^5.2.1"
+  }
+}
